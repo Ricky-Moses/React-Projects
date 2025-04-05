@@ -1,0 +1,37 @@
+// Font
+@mixin font-size($min, $default, $max){
+    font-size: clamp($min, $default, $max);
+}
+
+// Flex
+@mixin flex($direction: row, $align: stretch, $justify: flex-start, $wrap: nowrap, $gap: 0 ){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    
+    @if $gap != 0{
+        gap: $gap;
+    }
+}
+
+// Grid
+@mixin grid($column: 1, $fraction: 1fr, $gap: 0){
+    display: grid;
+    grid-template-columns: repeat($column, $fraction);
+
+    @if $gap != 0{
+        gap: $gap;
+    }
+}
+
+// Grid Responsive
+@mixin grid-responsive($auto-fit: auto-fit, $min-size: 0px, $max-size: 1fr, $gap: 0) {
+    display: grid;
+    grid-template-columns: repeat($auto-fit, minmax($min-size, $max-size));
+
+    @if $gap != 0 {
+        gap: $gap;
+    }
+}

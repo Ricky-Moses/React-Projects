@@ -1,0 +1,51 @@
+// Modern SCSS Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Remove default list styles
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+// Remove default text spacing
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal; // optional: for total control
+}
+
+// Reset anchor tags
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Reset images and media
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+// Set base html/body styles
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: sans-serif; // or your preferred font
+}
+
+// Optional: remove button/input defaults
+button, input, textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}

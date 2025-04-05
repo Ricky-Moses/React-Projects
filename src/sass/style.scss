@@ -1,0 +1,5 @@
+// Base Scss
+@use './base/index.scss' as *;
+
+// Projects
+@use './small_projects/index.scss';

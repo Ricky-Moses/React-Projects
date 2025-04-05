@@ -1,0 +1,67 @@
+@use '../base/index.scss' as *;
+@use 'sass:map';
+
+.weather{
+    & .weather-app{
+        background: map.get($color, purple-subtle_semi);
+        height: fit-content;
+        border-radius: map.get($radius, low);
+
+        & .first-column{
+            & .form-input input{
+                background: map.get($color, purple_subtle);
+                color: map.get($color, text_light);
+                outline: none;
+                border: none;
+    
+                &::placeholder{
+                    color: map.get($color, text_light);
+                }
+            }
+    
+            & .head-card{
+                & .card{
+                    height: 25vh;
+                    background: transparent;
+                    border: none;
+
+                    & .img-container{
+                        height: 20vh;
+                        
+                        & img{
+                            object-fit: contain;
+                            width: 100%;
+                            height: 100%;
+
+                        }
+                    }
+                }
+            }
+
+            & .today-weather{
+                border-radius: map.get($radius, low);
+                background: map.get($color, purple_subtle);
+                
+                & ul li{
+                    height: 100%;
+                    width: 15%;
+                    padding-right: 10px;
+                }
+            }
+
+            & .air-condition{
+                border-radius: map.get($radius, low);
+                background: map.get($color, purple_subtle);
+            }
+        }
+
+        & .second-column{
+            border-radius: map.get($radius, low);
+            background: map.get($color, purple_subtle);
+
+            & ul .img-container-two{
+                width: 15%;
+            }
+        }
+    }
+}

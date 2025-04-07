@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App'
 // Sass Files
 import './sass/style.scss'
+// Tailwind css
+import './tailwind.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

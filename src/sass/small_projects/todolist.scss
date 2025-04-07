@@ -1,0 +1,34 @@
+@use '../base/index.scss' as *;
+@use 'sass:map';
+
+.todo-list{
+    & .todo-form{
+        & h2{
+            font-variant: small-caps;
+        }
+        & input, textarea::placeholder{
+            font-style: italic;
+        }
+        & textarea{
+            &::-webkit-scrollbar{
+                width: 10px;
+            }
+            &::-webkit-scrollbar-track{
+                background: #f1f1f1;
+            }
+            &::-webkit-scrollbar-thumb{
+                cursor:default;
+                background: #c2c2c2;
+            }
+        }
+        & .form-btn{
+            padding: 5px 15px;
+            border-radius: map.get($radius, peak);
+            background: #fd9f9f;
+            &:hover{
+                outline: solid 3px #ff0000;
+                outline-offset: 3px;
+            }
+        }
+    }
+}

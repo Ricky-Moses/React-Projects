@@ -9,7 +9,7 @@ import Weather from './assets/Images/Home/Weather.png'
 const linkToPage = {
   smallProject: [
     { id: "Weather", name: "Weather App", link: "/weather", description: "Get real-time weather updates for any city.", img: Weather },
-    { id: "Todo", name: "Todo List", link: "/", description: "A simple task management app to keep track of daily tasks.", img: '' },
+    { id: "Todo", name: "Todo List", link: "/todolist", description: "A simple task management app to keep track of daily tasks.", img: '' },
     { id: "Counter", name: "Counter App", link: "/", description: "A basic counter that increases, decreases, and resets.", img: '' },
     { id: "Quote", name: "Random Quote Generator", link: "/", description: "Generate inspirational quotes with a click.", img: '' },
     { id: "Calculator", name: "Calculator", link: "/", description: "A functional calculator for basic arithmetic operations.", img: '' },

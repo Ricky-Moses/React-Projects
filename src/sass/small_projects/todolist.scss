@@ -2,10 +2,10 @@
 @use 'sass:map';
 
 .todo-list{
+    & h2, h4{
+        font-variant: small-caps;
+    }
     & .todo-form{
-        & h2{
-            font-variant: small-caps;
-        }
         & input, textarea::placeholder{
             font-style: italic;
         }
@@ -31,4 +31,35 @@
             }
         }
     }
+    & .todo-form-list {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+      
+        & ul {
+            
+            &::-webkit-scrollbar {
+              width: 2px;
+            }
+        
+            &::-webkit-scrollbar-track {
+              background: #f1f1f1;
+            }
+        
+            &::-webkit-scrollbar-thumb {
+              background: #c2c2c2;
+            }
+      
+          & li {
+            & .icon {
+              @include font-size(0.8em, 5vw, 1.5em);
+            }
+      
+            & .list-date {
+                @include font-size(0.5em, 5vw, 1em);
+            }
+          }
+        }
+      }
+      
 }

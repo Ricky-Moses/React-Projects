@@ -8,7 +8,7 @@ import App from './App'
 // Sass Files
 import './sass/style.scss'
 // Tailwind css
-import './tailwind.css'
+import './styles.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

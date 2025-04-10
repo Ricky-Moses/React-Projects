@@ -1,0 +1,15 @@
+@use './mixins.scss' as *;
+// max-width: 768px
+@media (max-width: 768px) {
+    // Todo List
+    .todo-form-list{
+        width: 92%;
+        height: 65vh !important;
+        @include absolute(-100%, 50%, -50%, -50%);
+        transition: all .5s ease-in-out;
+        &.active{
+            @include absolute(50%, 50%, -50%, -50%)
+            
+        }
+    }
+}

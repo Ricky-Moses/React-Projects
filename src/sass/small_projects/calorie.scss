@@ -1,0 +1,47 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.calorie {
+  & main {
+    font-family: map.get($family, font-winky);
+    & .img-container {
+      position: relative;
+      &::before {
+        content: "";
+        @include absolute();
+        width: 100%;
+        height: 100%;
+        background-color: map.get($color, purple_);
+        opacity: 0.5;
+      }
+      & .img-content {
+        @include absolute(50%, 50%, -50%, -50%);
+        z-index: 1;
+      }
+    }
+    & .content-container {
+      & .heading {
+        & .calc-icon {
+          color: map.get($color, purple_);
+        }
+        & h1 {
+          font-variant: small-caps;
+          color: map.get($color, purple_);
+        }
+        & p {
+          color: map.get($color, purple_);
+        }
+      }
+      & .user-info{
+        & form{
+            & input[type='range']{
+                accent-color: map.get($color, purple_);
+            }
+            & input[type='submit']{
+                background: map.get($color, purple_);
+            }
+        }
+      }
+    }
+  }
+}

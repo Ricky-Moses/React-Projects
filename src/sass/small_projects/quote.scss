@@ -1,0 +1,11 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.quote{
+    & main{
+        background: map.get($color, retro);
+        & h3{
+            font-variant: small-caps;
+        }
+    }
+}

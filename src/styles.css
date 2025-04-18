@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+    theme: all;
+}
+
+.daisy-collapse{
+    @apply collapse;
+}

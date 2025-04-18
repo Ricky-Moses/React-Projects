@@ -1,0 +1,365 @@
+{
+    "quotes": [
+      {
+        "id": 1,
+        "name": "Albert Einstein",
+        "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "description": "This quote emphasizes the importance of perseverance and continuous effort in life. Just like riding a bicycle, if you stop moving, you lose balance. It encourages us to keep pushing forward despite challenges.",
+        "img": "./Quote_Img/Albert.png",
+        "category": "inspiration",
+        "tags": ["life", "perseverance", "effort"]
+      },
+      {
+        "id": 2,
+        "name": "Maya Angelou",
+        "quote": "You will face many defeats in life, but never let yourself be defeated.",
+        "description": "Angelou reminds us that while setbacks are inevitable, the real failure is in giving up. Strength lies in resilience.",
+        "img": "./Quote_Img/Maya.png",
+        "category": "motivation",
+        "tags": ["resilience", "strength", "life"]
+      },
+      {
+        "id": 3,
+        "name": "Steve Jobs",
+        "quote": "Stay hungry, stay foolish.",
+        "description": "Jobs encourages curiosity and a never-ending desire to learn and innovate. Staying 'hungry' means staying driven.",
+        "img": "./Quote_Img/Steve.png",
+        "category": "success",
+        "tags": ["innovation", "curiosity", "success"]
+      },
+      {
+        "id": 4,
+        "name": "Oprah Winfrey",
+        "quote": "Turn your wounds into wisdom.",
+        "description": "Winfrey teaches us that pain can be a powerful teacher. Transforming struggles into lessons is key to growth.",
+        "img": "./Quote_Img/Oprah.png",
+        "category": "wisdom",
+        "tags": ["healing", "growth", "wisdom"]
+      },
+      {
+        "id": 5,
+        "name": "Nelson Mandela",
+        "quote": "It always seems impossible until it’s done.",
+        "description": "Mandela’s quote inspires us to take action, despite how daunting a task may appear.",
+        "img": "./Quote_Img/Nelson.png",
+        "category": "perseverance",
+        "tags": ["hope", "effort", "success"]
+      },
+      {
+        "id": 6,
+        "name": "Confucius",
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "description": "Consistent effort is more valuable than speed. Progress is progress, no matter how small.",
+        "img": "./Quote_Img/Confucius.png",
+        "category": "discipline",
+        "tags": ["progress", "patience", "growth"]
+      },
+      {
+        "id": 7,
+        "name": "Helen Keller",
+        "quote": "Alone we can do so little; together we can do so much.",
+        "description": "Keller highlights the power of collaboration and community in achieving great things.",
+        "img": "./Quote_Img/Helen.png",
+        "category": "teamwork",
+        "tags": ["unity", "support", "teamwork"]
+      },
+      {
+        "id": 8,
+        "name": "Walt Disney",
+        "quote": "All our dreams can come true, if we have the courage to pursue them.",
+        "description": "Disney reminds us that dreams are achievable with bravery and persistence.",
+        "img": "./Quote_Img/walt.png",
+        "category": "dreams",
+        "tags": ["dreams", "courage", "success"]
+      },
+      {
+        "id": 9,
+        "name": "Bruce Lee",
+        "quote": "Knowing is not enough, we must apply. Willing is not enough, we must do.",
+        "description": "Lee stresses action over intention. Knowledge is useless without execution.",
+        "img": "./Quote_Img/Bruce.png",
+        "category": "discipline",
+        "tags": ["action", "knowledge", "execution"]
+      },
+      {
+        "id": 10,
+        "name": "Mother Teresa",
+        "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+        "description": "This quote is about kindness and the impact we can have on others with compassion.",
+        "img": "./Quote_Img/Teresa.png",
+        "category": "kindness",
+        "tags": ["love", "compassion", "impact"]
+      },
+      {
+        "id": 11,
+        "name": "Leonardo da Vinci",
+        "quote": "Simplicity is the ultimate sophistication.",
+        "description": "Da Vinci valued clarity and simplicity, believing that true genius lies in making things elegant and understandable.",
+        "img": "./Quote_Img/da_vinci.png",
+        "category": "wisdom",
+        "tags": ["simplicity", "elegance", "clarity"]
+      },
+      {
+        "id": 12,
+        "name": "Dr. Seuss",
+        "quote": "Don’t cry because it’s over, smile because it happened.",
+        "description": "This quote encourages gratitude for memories rather than sorrow for their end.",
+        "img": "./Quote_Img/seuss.png",
+        "category": "gratitude",
+        "tags": ["positivity", "gratitude", "memories"]
+      },
+      {
+        "id": 13,
+        "name": "Barack Obama",
+        "quote": "The future rewards those who press on.",
+        "description": "Obama reminds us that persistence is rewarded, even when the path is uncertain.",
+        "img": "./Quote_Img/obama.png",
+        "category": "motivation",
+        "tags": ["future", "persistence", "hope"]
+      },
+      {
+        "id": 14,
+        "name": "J.K. Rowling",
+        "quote": "It is our choices that show what we truly are, far more than our abilities.",
+        "description": "Rowling teaches that character is defined by decisions, not just talents.",
+        "img": "./Quote_Img/rowling.png",
+        "category": "character",
+        "tags": ["choices", "identity", "morality"]
+      },
+      {
+        "id": 15,
+        "name": "Mark Twain",
+        "quote": "The secret of getting ahead is getting started.",
+        "description": "Twain’s quote is a reminder that action is the first step to achievement.",
+        "img": "./Quote_Img/twain.png",
+        "category": "productivity",
+        "tags": ["start", "motivation", "action"]
+      },
+      {
+        "id": 16,
+        "name": "Rosa Parks",
+        "quote": "You must never be fearful about what you are doing when it is right.",
+        "description": "Parks highlights the courage required to stand for what is morally right.",
+        "img": "./Quote_Img/rosa_park.png",
+        "category": "courage",
+        "tags": ["bravery", "justice", "fearless"]
+      },
+      {
+        "id": 17,
+        "name": "Dalai Lama",
+        "quote": "Be kind whenever possible. It is always possible.",
+        "description": "The Dalai Lama emphasizes that kindness is always within reach and never out of style.",
+        "img": "./Quote_Img/dalai.png",
+        "category": "kindness",
+        "tags": ["kindness", "peace", "compassion"]
+      },
+      {
+        "id": 18,
+        "name": "Thomas Edison",
+        "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+        "description": "Edison reframes failure as learning. It's a vital part of innovation.",
+        "img": "./Quote_Img/Edison.png",
+        "category": "innovation",
+        "tags": ["failure", "learning", "invention"]
+      },
+      {
+        "id": 19,
+        "name": "Jane Goodall",
+        "quote": "What you do makes a difference, and you have to decide what kind of difference you want to make.",
+        "description": "Goodall urges us to live intentionally, understanding that our actions impact the world.",
+        "img": "./Quote_Img/jane_goodall.png",
+        "category": "environment",
+        "tags": ["impact", "choices", "responsibility"]
+      },
+      {
+        "id": 20,
+        "name": "Elon Musk",
+        "quote": "When something is important enough, you do it even if the odds are not in your favor.",
+        "description": "Musk speaks about conviction and doing what matters, despite risk.",
+        "img": "./Quote_Img/elon.png",
+        "category": "determination",
+        "tags": ["risk", "purpose", "drive"]
+      },
+      {
+        "id": 21,
+        "name": "Aristotle",
+        "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "description": "Aristotle emphasizes the power of consistent action. Excellence isn't a one-time event but a repeated behavior.",
+        "img": "./Quote_Img/Aristotle.png",
+        "category": "discipline",
+        "tags": ["habits", "excellence", "routine"]
+      },
+      {
+        "id": 22,
+        "name": "Vincent Van Gogh",
+        "quote": "What would life be if we had no courage to attempt anything?",
+        "description": "Van Gogh questions the value of life without bravery, encouraging us to take bold steps.",
+        "img": "./Quote_Img/Vincent.png",
+        "category": "courage",
+        "tags": ["fear", "boldness", "action"]
+      },
+      {
+        "id": 23,
+        "name": "Brene Brown",
+        "quote": "Vulnerability is not winning or losing; it's having the courage to show up when you can't control the outcome.",
+        "description": "Brown redefines vulnerability as strength, highlighting its role in true courage.",
+        "img": "./Quote_Img/brene.png",
+        "category": "mental-health",
+        "tags": ["vulnerability", "courage", "authenticity"]
+      },
+      {
+        "id": 24,
+        "name": "Tony Robbins",
+        "quote": "The only limit to your impact is your imagination and commitment.",
+        "description": "Robbins believes your mind and your dedication set the ceiling on what you can do.",
+        "img": "./Quote_Img/Tony.png",
+        "category": "motivation",
+        "tags": ["imagination", "effort", "potential"]
+      },
+      {
+        "id": 25,
+        "name": "Marie Curie",
+        "quote": "Nothing in life is to be feared, it is only to be understood.",
+        "description": "Curie reminds us that understanding replaces fear with knowledge.",
+        "img": "./Quote_Img/marie.png",
+        "category": "science",
+        "tags": ["understanding", "fear", "education"]
+      },
+      {
+        "id": 26,
+        "name": "Eleanor Roosevelt",
+        "quote": "No one can make you feel inferior without your consent.",
+        "description": "Roosevelt speaks to inner strength and the power of self-worth.",
+        "img": "./Quote_Img/Eleanor.png",
+        "category": "confidence",
+        "tags": ["self-esteem", "power", "respect"]
+      },
+      {
+        "id": 27,
+        "name": "Charles Darwin",
+        "quote": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+        "description": "Darwin speaks about adaptability as a key to survival and success.",
+        "img": "./Quote_Img/Charles.png",
+        "category": "evolution",
+        "tags": ["adaptability", "change", "growth"]
+      },
+      {
+        "id": 28,
+        "name": "George Bernard Shaw",
+        "quote": "Progress is impossible without change, and those who cannot change their minds cannot change anything.",
+        "description": "Shaw encourages flexibility of thought for growth and progress.",
+        "img": "./Quote_Img/George_bernard.png",
+        "category": "philosophy",
+        "tags": ["change", "progress", "growth"]
+      },
+      {
+        "id": 29,
+        "name": "Anne Frank",
+        "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+        "description": "Anne Frank reminds us that positive action can begin right now, with us.",
+        "img": "./Quote_Img/anne_frank.png",
+        "category": "kindness",
+        "tags": ["action", "positivity", "change"]
+      },
+      {
+        "id": 30,
+        "name": "Benjamin Franklin",
+        "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn.",
+        "description": "Franklin stresses the power of active learning through experience.",
+        "img": "./Quote_Img/benjamin.png",
+        "category": "education",
+        "tags": ["learning", "education", "experience"]
+      },
+      {
+        "id": 31,
+        "name": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt to change.",
+        "description": "Hawking links intelligence not with knowledge, but with adaptability.",
+        "img": "./Quote_Img/hawkling.png",
+        "category": "science",
+        "tags": ["intelligence", "change", "adaptation"]
+      },
+      {
+        "id": 32,
+        "name": "Rumi",
+        "quote": "The wound is the place where the light enters you.",
+        "description": "Rumi suggests that pain can be a gateway to healing and growth.",
+        "img": "./Quote_Img/rumi.png",
+        "category": "spiritual",
+        "tags": ["healing", "growth", "light"]
+      },
+      {
+        "id": 33,
+        "name": "Zig Ziglar",
+        "quote": "You don’t have to be great to start, but you have to start to be great.",
+        "description": "Ziglar pushes us to begin, no matter how unprepared we feel.",
+        "img": "./Quote_Img/zig.png",
+        "category": "motivation",
+        "tags": ["starting", "effort", "progress"]
+      },
+      {
+        "id": 34,
+        "name": "John Wooden",
+        "quote": "Do not let what you cannot do interfere with what you can do.",
+        "description": "Wooden reminds us to focus on strengths, not limitations.",
+        "img": "./Quote_Img/Wooden.png",
+        "category": "sports",
+        "tags": ["focus", "capability", "action"]
+      },
+      {
+        "id": 35,
+        "name": "Bob Marley",
+        "quote": "Love the life you live. Live the life you love.",
+        "description": "Marley promotes authenticity and joy in living a life you believe in.",
+        "img": "./Quote_Img/Bob.png",
+        "category": "lifestyle",
+        "tags": ["life", "joy", "authenticity"]
+      },
+      {
+        "id": 36,
+        "name": "Carl Jung",
+        "quote": "Who looks outside, dreams; who looks inside, awakes.",
+        "description": "Jung emphasizes the power of introspection over external validation.",
+        "img": "./Quote_Img/carl.png",
+        "category": "psychology",
+        "tags": ["introspection", "self-awareness", "growth"]
+      },
+      {
+        "id": 37,
+        "name": "Abraham Lincoln",
+        "quote": "Whatever you are, be a good one.",
+        "description": "Lincoln encourages doing your best in any role you take on.",
+        "img": "./Quote_Img/Lincoln.png",
+        "category": "integrity",
+        "tags": ["excellence", "character", "dedication"]
+      },
+      {
+        "id": 38,
+        "name": "Jim Rohn",
+        "quote": "Either you run the day, or the day runs you.",
+        "description": "Rohn reminds us to take control of our time and not be reactive.",
+        "img": "./Quote_Img/jim.png",
+        "category": "productivity",
+        "tags": ["time", "control", "focus"]
+      },
+      {
+        "id": 39,
+        "name": "Malala Yousafzai",
+        "quote": "One child, one teacher, one book, one pen can change the world.",
+        "description": "Malala expresses the profound impact education can have.",
+        "img": "./Quote_Img/malala.png",
+        "category": "education",
+        "tags": ["education", "change", "hope"]
+      },
+      {
+        "id": 40,
+        "name": "Ralph Waldo Emerson",
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+        "description": "Emerson champions individuality and blazing your own trail.",
+        "img": "./Quote_Img/ralph_waldo.png",
+        "category": "individuality",
+        "tags": ["path", "leadership", "originality"]
+      }
+    ]
+}
+  

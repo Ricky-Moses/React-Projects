@@ -13,7 +13,7 @@ const linkToPage = {
     { id: "Weather", name: "Weather App", link: "/weather", description: "Get real-time weather updates for any city.", img: Weather },
     { id: "Todo", name: "Todo List", link: "/todolist", description: "A simple task management app to keep track of daily tasks.", img: TodoList },
     { id: "Calorie", name: "Calorie App", link: "/calorie", description: "A basic calorie app that track your health.", img: Calorie },
-    { id: "Quote", name: "Random Quote Generator", link: "/", description: "Generate inspirational quotes with a click.", img: '' },
+    { id: "Quote", name: "Random Quote Generator", link: "/quote", description: "Generate inspirational quotes with a click.", img: '' },
     { id: "Calculator", name: "Calculator", link: "/", description: "A functional calculator for basic arithmetic operations.", img: '' },
     { id: "Color-picker", name: "Color Picker", link: "/", description: "Pick and copy color codes easily for your designs.", img: '' },
     { id: "Clock", name: "Digital Clock", link: "/", description: "A live digital clock displaying the current time.", img: '' },

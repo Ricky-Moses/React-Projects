@@ -1,0 +1,16 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.calculator{
+    & main{
+        font-family: map.get($family, font-winky);
+        & .calc-container{
+            & .calc-display{
+                position: relative;
+                & button{
+                    @include absolute(15%, 8%, -50%, -50%)
+                }
+            }
+        }
+    }
+}

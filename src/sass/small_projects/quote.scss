@@ -4,6 +4,7 @@
 .quote{
     & main{
         background: map.get($color, retro);
+        font-family: map.get($family, font-berkshire);
         & h3{
             font-variant: small-caps;
         }

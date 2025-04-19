@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react'
 
 
 const Quote = () => {
-
+  
   const [fakeData, setFakeData] = useState([])
-  const [random, setRandom] = useState(0)
+  const [random, setRandom] = useState(Math.floor(Math.random() * 20))
   const [second, setSecond] = useState(0)
   let count = fakeData.length
 
@@ -78,12 +78,12 @@ const Quote = () => {
             <div className="join join-vertical w-full">
               {fakeData.map(({ id, name, quote, description, img, category, tags }) => (
                 <div key={id} className="daisy-collapse collapse-arrow join-item shadow-2xs cursor-pointer gap-1">
-                  <input type="radio" name="my-accordion-1" />
+                  <input type="checkbox" name="my-accordion-1" />
                   <div className="collapse-title font-semibold text-black flex items-center ps-2">{name}</div>
                   <div className="collapse-content text-sm text-black flex items-center justify-center" >
                     <div className="card w-5/6 shadow-2xs flex flex-col md:!flex-row items-center justify-center">
                       <figure className='w-2/6 h-full'>
-                        <img className="w-full h-full" src={img} />
+                        <img className="w-full h-full" src={import.meta.env.BASE_URL + img} />
                       </figure>
                       <div className="card-body w-full">
                         <h6 className="card-title capitalize underline underline-offset-3">{category}</h6>

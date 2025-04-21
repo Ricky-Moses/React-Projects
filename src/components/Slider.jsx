@@ -1,7 +1,23 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
+import Tourist from "../Small_Projects/Tourist";
 
 const CustomSlider = () => {
+
+    const [tourist, setTourist] = useState([]);
+
+    useEffect(() => {
+        axios.get('./data.json')
+            .then(res => {
+                setTourist(res.data.gallery)
+                console.log(res.data.gallery);
+            })
+            .catch((err) => {
+                console.log('Error Loading Data', err);
+            })
+    }, [])
+
     var settings = {
         dots: false,
         arrows: false,
@@ -11,9 +27,15 @@ const CustomSlider = () => {
         slidesToScroll: 1,
     };
     return (
-        <Slider {...settings}>
-            
-        </Slider>
+        <div className="relative">
+            {tourist.length > 0 && (
+                <Slider {...settings}>
+                    {tourist.map((item) => (
+                        <Tourist key={item.id} data={item} />
+                    ))}
+                </Slider>
+            )}
+        </div>
     );
 }
 

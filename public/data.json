@@ -360,6 +360,15 @@
         "category": "individuality",
         "tags": ["path", "leadership", "originality"]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "id": 1,
+        "img": "./Gallery/Japanese.jpg",
+        "title": "Japanese",
+        "subTitle": "Garden",
+        "description": "A serene Japanese garden with a koi pond and cherry blossoms."
+      }
+    ] 
 }
   

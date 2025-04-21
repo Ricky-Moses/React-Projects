@@ -17,11 +17,7 @@ const linkToPage = {
     { id: "Calorie", name: "Calorie App", link: "/calorie", description: "A basic calorie app that track your health.", img: Calorie },
     { id: "Quote", name: "Random Quote Generator", link: "/quote", description: "Generate inspirational quotes with a click.", img: Quote },
     { id: "Calculator", name: "Calculator", link: "/calculator", description: "A functional calculator for basic arithmetic operations.", img: Calculator },
-    { id: "Color-picker", name: "Color Picker", link: "/", description: "Pick and copy color codes easily for your designs.", img: '' },
-    { id: "Clock", name: "Digital Clock", link: "/", description: "A live digital clock displaying the current time.", img: '' },
-    { id: "Form-validator", name: "Simple Form Validator", link: "/", description: "A form validation tool for input fields.", img: '' },
-    { id: "Gallery", name: "Image Gallery", link: "/", description: "A responsive image gallery with smooth transitions.", img: '' },
-    { id: "Expense-tracker", name: "Expense Tracker", link: "/", description: "Track your daily expenses and manage your budget.", img: '' },
+    { id: "Discuss", name: "Discuss Project", link: "/", description: "Let's discuss about my projects!", img: '' },
   ],
 };
 

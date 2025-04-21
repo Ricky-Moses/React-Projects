@@ -86,7 +86,7 @@ const Weather = () => {
 
   return (
     <>
-      <Container className='weather d-flex align-items-center justify-content-center pt-5 pb-3'>
+      <Container className='weather h-dvh d-flex align-items-center justify-content-center pt-5 pb-3'>
         <section className="weather-app">
           <Row className='p-2 gap-4 gx-0 text-white'>
             <Col lg={7} className='first-column d-flex flex-column justify-content-center gap-2'>

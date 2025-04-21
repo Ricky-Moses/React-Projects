@@ -28,7 +28,7 @@ const Home = () => {
       <Container fluid>
 
         <Row className='p-5'>
-          <h1>Small Projects</h1>
+          <h1 className=''>Mini Projects</h1>
           {
             linkToPage.smallProject.map(({ id, name, link, description, img }, i) => (
               <Col sm={6} lg={4} className='g-3' key={id}>

@@ -17,7 +17,6 @@ const linkToPage = {
     { id: "Calorie", name: "Calorie App", link: "/calorie", description: "A basic calorie app that track your health.", img: Calorie },
     { id: "Quote", name: "Random Quote Generator", link: "/quote", description: "Generate inspirational quotes with a click.", img: Quote },
     { id: "Calculator", name: "Calculator", link: "/calculator", description: "A functional calculator for basic arithmetic operations.", img: Calculator },
-    { id: "Discuss", name: "Discuss Project", link: "/", description: "Let's discuss about my projects!", img: '' },
   ],
 };
 

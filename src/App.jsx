@@ -11,7 +11,6 @@ import Calculator from './Small_Projects/Calculator'
 // React Router
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-
 const App = () => (
   <HashRouter>
     <Routes>
